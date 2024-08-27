@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #1b2b34;
+    scroll-behavior: smooth;
+  }
+  
+  h1, h2, h3 {
+    margin: 0;
+    padding: 0.5em 0;
+  }
+  
+  h2 {
+    font-size: 2.5em;
+    color: #f4b400;
+  }
+  
+  p {
+    margin: 0.5em 0;
+  }
+  
+  section {
+    padding: 60px 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  nav {
+    background-color: #1b2b34;
+    padding: 2em 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 80px;
+  }
+  
+  .nav-left {
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  
+  .nav-right ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-right ul li {
+    margin-left: 20px;
+  }
+  
+  .nav-right ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+  }
+  
+  .nav-right ul li a:hover {
+    color: #f4b400;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 100px auto 0 auto;
+    padding: 1.5em 20px;
+  }
+  
+  .portrait {
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 40px;
+  }
+  
+  .hero-text h1 {
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-text span {
+    margin-left: 10px;
+  }
+  
+  .hero-text p {
+    font-size: 1.2em;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: start;
+    margin-top: 1em;
+  }
+  
+  .social-links a {
+    margin-right: 15px;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .timeline, .projects-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .timeline-item, .project-item {
+    background: #2b3a42;
+    padding: 20px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .timeline-item:hover, .project-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .highlight {
+    border: 2px solid #f4b400;
+  }
+  
